@@ -5,7 +5,7 @@ import { AppBar, Toolbar, Typography, Grid, Button, Table, TableHead, TableBody,
 import { Menu as MenuIcon, AddCircle as AddCircleIcon } from '@mui/icons-material';
 import moment from 'moment';
 
-function TodoList() {
+function todo() {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [deadline, setDeadline] = useState('');
@@ -103,4 +103,4 @@ function TodoList() {
   );
 }
 
-export default TodoList;
+export default todo;
